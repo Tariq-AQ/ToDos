@@ -1,0 +1,141 @@
+html {
+  height: 100%;
+}
+
+body {
+  font-family: Roboto;
+  background: linear-gradient(35deg, #64b6ac, #3c6b7c 100%);
+}
+
+#container {
+  -webkit-box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
+  width: 95%;
+  margin: 5px auto;
+  background: #f7f7f7;
+}
+
+.todoHeader {
+  background: #3c6b7c;
+  color: white;
+  margin: 0;
+  padding: 10px 20px;
+}
+
+img {
+  width: 20%;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  font-family: "Comic Neue", cursive;
+  background: #fff;
+  height: 40px;
+  line-height: 40px;
+  color: #666;
+  font-weight: bold;
+}
+
+li:nth-child(2n) {
+  background: #f7f7f7;
+}
+
+li:hover span {
+  width: 40px;
+  opacity: 1;
+}
+
+.completed {
+  color: #afafaf;
+  text-decoration: line-through;
+  -webkit-text-decoration-color: #03da03;
+  text-decoration-color: #03da03;
+}
+
+span {
+  background: red;
+  height: 40px;
+  margin-right: 20px;
+  text-align: center;
+  color: white;
+  width: 0;
+  display: inline-block;
+  -webkit-transition: 0.2s linear;
+  transition: 0.2s linear;
+  opacity: 0;
+}
+
+input {
+  font-size: 18px;
+  background-color: #ffffff;
+  width: 100%;
+  padding: 13px 13px 13px 20px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  color: #000000;
+  border: 3px solid rgba(0, 0, 0, 0);
+}
+
+input:focus {
+  background: #fff;
+  outline: none;
+  border: solid 2px #2980b9;
+}
+
+.btn {
+  padding: 10px;
+  -webkit-transform: translateX(50%);
+  transform: translateX(50%);
+  color: white;
+  width: 50%;
+  background-color: #3c6b7c;
+  -webkit-transition-duration: 200ms;
+  transition-duration: 200ms;
+}
+
+.btn:hover {
+  -webkit-transform: translateX(0%);
+  transform: translateX(0%);
+  -webkit-transition-duration: 200ms;
+  transition-duration: 200ms;
+  color: white;
+  width: 100%;
+  background-color: #3c7c79;
+  transition-duration: 200ms;
+}
+
+.clicked,
+.clicked:hover {
+  background-color: #54af63;
+}
+
+@media only screen and (min-width: 600px) {
+  #container {
+    -webkit-box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
+    width: 50%;
+    float: left;
+    background: #f7f7f7;
+  }
+  .newData {
+    width: 40%;
+    float: right;
+    margin-right: 5%;
+    margin-top: 100px;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  #container {
+    -webkit-box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
+    width: 310px;
+    background: #f7f7f7;
+  }
+}
+/*# sourceMappingURL=style.css.map */
