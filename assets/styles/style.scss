@@ -107,6 +107,7 @@ input:focus {
     width: 50%;
     float: left;
     background: #f7f7f7;
+    margin-top: 20px;
   }
   .newData {
     width: 40%;
@@ -122,4 +123,11 @@ input:focus {
 
     background: #f7f7f7;
   }
+  img {
+    width: 70px;
+  }
+}
+footer {
+  padding: 20px;
+  color: #f7f7f7;
 }

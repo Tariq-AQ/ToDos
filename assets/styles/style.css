@@ -9,7 +9,7 @@ body {
 
 #container {
   -webkit-box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
-  box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
+          box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
   width: 95%;
   margin: 5px auto;
   background: #f7f7f7;
@@ -54,7 +54,7 @@ li:hover span {
   color: #afafaf;
   text-decoration: line-through;
   -webkit-text-decoration-color: #03da03;
-  text-decoration-color: #03da03;
+          text-decoration-color: #03da03;
 }
 
 span {
@@ -76,7 +76,7 @@ input {
   width: 100%;
   padding: 13px 13px 13px 20px;
   -webkit-box-sizing: border-box;
-  box-sizing: border-box;
+          box-sizing: border-box;
   color: #000000;
   border: 3px solid rgba(0, 0, 0, 0);
 }
@@ -90,19 +90,19 @@ input:focus {
 .btn {
   padding: 10px;
   -webkit-transform: translateX(50%);
-  transform: translateX(50%);
+          transform: translateX(50%);
   color: white;
   width: 50%;
   background-color: #3c6b7c;
   -webkit-transition-duration: 200ms;
-  transition-duration: 200ms;
+          transition-duration: 200ms;
 }
 
 .btn:hover {
   -webkit-transform: translateX(0%);
-  transform: translateX(0%);
+          transform: translateX(0%);
   -webkit-transition-duration: 200ms;
-  transition-duration: 200ms;
+          transition-duration: 200ms;
   color: white;
   width: 100%;
   background-color: #3c7c79;
@@ -117,10 +117,11 @@ input:focus {
 @media only screen and (min-width: 600px) {
   #container {
     -webkit-box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
-    box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
+            box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
     width: 50%;
     float: left;
     background: #f7f7f7;
+    margin-top: 20px;
   }
   .newData {
     width: 40%;
@@ -133,9 +134,17 @@ input:focus {
 @media only screen and (max-width: 320px) {
   #container {
     -webkit-box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
-    box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
+            box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
     width: 310px;
     background: #f7f7f7;
   }
+  img {
+    width: 70px;
+  }
+}
+
+footer {
+  padding: 20px;
+  color: #f7f7f7;
 }
 /*# sourceMappingURL=style.css.map */

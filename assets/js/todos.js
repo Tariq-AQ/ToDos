@@ -33,7 +33,7 @@ $(document).ready(function () {
     event.stopPropagation();
   });
 
-  //Encapsulating add new function to use it as a callback function later
+  //Encapsulating "add new" function to use it as a callback function later
   var submit = function () {
     if ($("input[type='text']").val() != "") {
       var todoText = $("input[type='text']").val();
